@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+
+  <style>
+    .border {
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <table class="border">
+    <thead>
+      <th class="border">Nome</th>
+      <th class="border">Idade</th>
+      <th class="border">Profissão</th>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="border">Ted</td>
+        <td class="border">22</td>
+        <td class="border">Estudante</td>
+      </tr>
+      <tr>
+        <td class="border">Ralf</td>
+        <td class="border">26</td>
+        <td class="border">Designer</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br />
+  <br />
+
+  <table class="border">
+    <tr>
+      <th class="border">Nome</th>
+      <td class="border">Ted</td>
+    </tr>
+    <tr>
+      <th class="border">Idade</th>
+      <td class="border">22</td>
+    </tr>
+  </table>
+
+  <br />
+  <br />
+
+  <table class="border">
+    <thead>
+      <th class="border"></th>
+      <th class="border">Valor</th>
+    </thead>
+
+    <tr>
+      <td class="border">Item 1</td>
+      <td class="border">R$ 10,00</td>
+    </tr>
+    <tr>
+      <td class="border">Item 2</td>
+      <td class="border">R$ 20,00</td>
+    </tr>
+  </table>
+
+  <br />
+  <br />
+
+  <table class="border">
+    <thead>
+      <th class="border">Nome</th>
+      <th class="border" colspan="2">Telefones</th>
+    </thead>
+
+    <tr>
+      <td class="border">Ted</td>
+      <td class="border">8888-8888</td>
+      <td class="border">9999-9999</td>
+    </tr>
+    <tr>
+      <td class="border">Junior</td>
+      <td class="border">1111-1111</td>
+      <td class="border">2222-2222</td>
+    </tr>
+  </table>
+
+  <br />
+  <br />
+
+  <table class="border">
+    <tr>
+      <th class="border">Primeiro Nome:</th>
+      <td class="border">Ted</td>
+    </tr>
+
+    <tr>
+      <th class="border" rowspan="2">Telefone:</th>
+      <td class="border">8888-8888</td>
+    </tr>
+
+    <tr>
+      <td class="border">9999-9999</td>
+    </tr>
+  </table>
+
+  <br />
+  <br />
+
+  <table class="border">
+    <caption>Exemplo de título</caption>
+    <thead>
+      <th class="border">Nome</th>
+      <th class="border">Sobrenome</th>
+    </thead>
+
+    <tr>
+      <th class="border">Ted</th>
+      <td class="border">Junior</td>
+    </tr>
+
+    <tr>
+      <td class="border">Ted</td>
+      <td class="border">Neto</td>
+    </tr>
+  </table>
+
+  <br />
+  <br />
+
+  <table class="border">
+    <colgroup>
+    <col span="2" style="background-color: red;" />
+    <col style="background-color: yellow;" />
+  </colgroup>
+  
+  <tr>
+    <td class="border">Nome</td>
+    <td class="border">Idade</td>
+    <td class="border">Profissão</td>
+  </tr>
+  <tr>
+    <td class="border">Ted</td>
+    <td class="border">22</td>
+    <td class="border">Estudante</td>
+  </tr>
+  <tr>
+    <td class="border">Junior</td>
+    <td class="border">26</td>
+    <td class="border">Escritor</td>
+  </tr>
+  </table>
+</body>
+</html>
